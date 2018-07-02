@@ -1,0 +1,13 @@
+this folder contains the work Harry has done before holidays
+
+1. add camera captures in argos code
+	file builderbot*.cpp and builderbot*.h are with camera capture functions
+	everyting changed in the file is between something like:
+	------ about camera ----------
+	xxx
+	------------------------------
+
+2. blocktracking
+	in mycontroll.lua, it calls function in func.lua in folder blocktracking, which
+	is the main function for blocktracking. 
+	Details are written in ./blocktracking/README
