@@ -18,10 +18,10 @@ function trackingTags(tags,tags_seeing,_threshold)
 		-- filled with 0s
 	--[[
 					tags_seeing.n
-		 		* * * * * * * * * * * 
-		tags.n 	*					*
-			 	*					*
-		 		* * * * * * * * * * * 
+				* * * * * * * * * * * 
+				*					*	tags.n
+				*					*
+				* * * * * * * * * * * 
 	--]]
 
 	-- set penalty matrix

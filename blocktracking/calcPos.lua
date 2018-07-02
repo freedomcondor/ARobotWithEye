@@ -16,14 +16,6 @@ function calTagPos(tag)
 		--				1 = {x = xx, y = xx}
 		--				2 = {x = xx, y = xx}
 		--			}
-
-									--[[ check corners
-										for i = 1,4 do
-											print("\t\ttagcorner",i,"x = ",tag.corners[i].x,
-																	"y = ",tag.corners[i].y) 
-										end
-									--]]
-
 	tag.corners.halfL = tag.halfL;
 	if tag.camera_flag == 1 then		-- for PC test Camera
 		cam_para = {939.001439,939.001439,320,240}
